@@ -66,13 +66,14 @@ body {
 
 .nameinput {
   position: absolute;
-  width: 278px;
+  width: 248px;
   height: 30px;
   left: 29px;
   top: 128px;
   border: 0;
   background: #e3e3e3;
   border-radius: 20px;
+  padding-left: 30px;
 }
 
 .id {
@@ -93,17 +94,17 @@ body {
 
 .idinput {
   position: absolute;
-  width: 215px;
+  width: 185px;
   height: 30px;
   left: 29px;
   top: 186px;
   border: 0;
   background: #e3e3e3;
   border-radius: 20px;
+  padding-left: 30px;
 }
 
 .idinput::placeholder {
-  padding: 15px;
   width: 111px;
   height: 13px;
   left: 43px;
@@ -162,17 +163,17 @@ body {
 
 .passwordiinput {
   position: absolute;
-  width: 278px;
+  width: 248px;
   height: 30px;
   left: 29px;
   top: 252px;
   border: 0;
   background: #e3e3e3;
   border-radius: 20px;
+  padding-left: 30px;
 }
 
 .passwordiinput::placeholder {
-  padding: 15px;
   width: 185px;
   height: 18px;
   left: 43px;
@@ -205,13 +206,14 @@ body {
 
 .passwordcheckinput {
   position: absolute;
-  width: 278px;
+  width: 248px;
   height: 30px;
   left: 29px;
   top: 321px;
   border: 0;
   background: #e3e3e3;
   border-radius: 20px;
+  padding-left: 30px;
 }
 
 .email {
@@ -232,20 +234,21 @@ body {
 
 .emailfront {
   position: absolute;
-  width: 131px;
+  width: 101px;
   height: 30px;
   left: 29px;
   top: 395px;
   border: 0;
   background: #e3e3e3;
   border-radius: 20px;
+  padding-left: 20px;
 }
 
 .emailmiddle {
   position: absolute;
   width: 28px;
   height: 28px;
-  left: 170px;
+  left: 165px;
   top: 402px;
 
   font-family: "Libre Baskerville";
@@ -266,6 +269,8 @@ body {
   border: 0;
   background: #e3e3e3;
   border-radius: 20px;
+  appearance: none;
+  padding-left: 20px;
 }
 
 #emailbox > option {
@@ -286,11 +291,107 @@ body {
 
 #arrow {
   position: absolute;
+  left: 300px;
+  top: 404px;
+  width: 0;
+  height: 0;
+  border-left: 6.5px solid transparent;
+  border-right: 6.5px solid transparent;
+  border-bottom: 13px solid #bfbfbf;
+  transform: scaleY(-1);
+  pointer-events: none;
+}
+
+.gender {
+  position: absolute;
+  width: 102px;
+  height: 12px;
+  left: 43px;
+  top: 450px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #888888;
+}
+
+#genderinput {
+  box-sizing: border-box;
+
+  position: absolute;
   width: 15px;
   height: 15px;
-  left: 295px;
-  top: 417px;
+  left: 39px;
+  top: 469px;
 
-  background: #bfbfbf;
-  transform: matrix(1, 0, 0, -1, 0, 0);
+  background: #d9d9d9;
+  border: 1px solid #888888;
+  accent-color: #888888;
+}
+
+#genderinput2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 100px;
+  top: 469px;
+
+  background: #d9d9d9;
+  border: 1px solid #888888;
+  accent-color: #888888;
+}
+
+.gendertext1 {
+  position: absolute;
+  width: 30px;
+  height: 6px;
+  left: 57px;
+  top: 468px;
+  padding-left: 2%;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #888888;
+}
+
+.gendertext2 {
+  position: absolute;
+  width: 30px;
+  height: 7px;
+  left: 117px;
+  top: 469px;
+  padding-left: 2%;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #888888;
+}
+
+.LoginSigninButton {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 77px;
+  top: 599px;
+  border: 0;
+  background-color: #d9d9d9;
+}
+
+.LoginSigninButton > span {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+
+  color: #888888;
 }
