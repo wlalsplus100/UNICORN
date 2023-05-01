@@ -1,0 +1,296 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Lateef";
+  src: url("../resource/font/Lateef/Lateef-Regular.ttf") format("truetype");
+}
+
+.frame {
+  position: relative;
+  width: 350px;
+  height: 677px;
+  background: #d9d9d9;
+}
+
+.signin {
+  position: absolute;
+  width: 128px;
+  height: 64px;
+  left: 34px;
+  top: 28px;
+  vertical-align: middle;
+  font-family: "Lateef";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 72px;
+  text-decoration: underline 1.5px;
+  text-underline-offset: 9px;
+  color: #888888;
+}
+
+.seeMore {
+  position: absolute;
+  width: 53.5px;
+  height: 55px;
+  left: 285px;
+  top: 8px;
+}
+
+.name {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 43px;
+  top: 114px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #888888;
+}
+
+.nameinput {
+  position: absolute;
+  width: 278px;
+  height: 30px;
+  left: 29px;
+  top: 128px;
+  border: 0;
+  background: #e3e3e3;
+  border-radius: 20px;
+}
+
+.id {
+  position: absolute;
+  width: 102px;
+  height: 19px;
+  left: 43px;
+  top: 172px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #888888;
+}
+
+.idinput {
+  position: absolute;
+  width: 215px;
+  height: 30px;
+  left: 29px;
+  top: 186px;
+  border: 0;
+  background: #e3e3e3;
+  border-radius: 20px;
+}
+
+.idinput::placeholder {
+  padding: 15px;
+  width: 111px;
+  height: 13px;
+  left: 43px;
+  top: 195px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #888888;
+}
+
+.DuplicateID {
+  position: absolute;
+  width: 51px;
+  height: 22px;
+  left: 257px;
+  top: 190px;
+  border: 0;
+  background: #e3e3e3;
+  border-radius: 20px;
+}
+
+.DuplicateID > span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 25%;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #888888;
+}
+
+.password {
+  position: absolute;
+  width: 102px;
+  height: 19px;
+  left: 43px;
+  top: 237px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #888888;
+}
+
+.passwordiinput {
+  position: absolute;
+  width: 278px;
+  height: 30px;
+  left: 29px;
+  top: 252px;
+  border: 0;
+  background: #e3e3e3;
+  border-radius: 20px;
+}
+
+.passwordiinput::placeholder {
+  padding: 15px;
+  width: 185px;
+  height: 18px;
+  left: 43px;
+  top: 261px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #888888;
+}
+
+.passwordcheck {
+  position: absolute;
+  width: 102px;
+  height: 19px;
+  left: 43px;
+  top: 307px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #888888;
+}
+
+.passwordcheckinput {
+  position: absolute;
+  width: 278px;
+  height: 30px;
+  left: 29px;
+  top: 321px;
+  border: 0;
+  background: #e3e3e3;
+  border-radius: 20px;
+}
+
+.email {
+  position: absolute;
+  width: 102px;
+  height: 19px;
+  left: 43px;
+  top: 380px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #888888;
+}
+
+.emailfront {
+  position: absolute;
+  width: 131px;
+  height: 30px;
+  left: 29px;
+  top: 395px;
+  border: 0;
+  background: #e3e3e3;
+  border-radius: 20px;
+}
+
+.emailmiddle {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 170px;
+  top: 402px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #888888;
+}
+
+#emailbox {
+  position: absolute;
+  width: 131px;
+  height: 30px;
+  left: 191px;
+  top: 395px;
+  border: 0;
+  background: #e3e3e3;
+  border-radius: 20px;
+}
+
+#emailbox > option {
+  position: absolute;
+  width: 83px;
+  height: 14px;
+  left: 209px;
+  top: 403px;
+
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #888888;
+}
+
+#arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 295px;
+  top: 417px;
+
+  background: #bfbfbf;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
