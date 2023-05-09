@@ -271,6 +271,7 @@ body {
   border-radius: 20px;
   appearance: none;
   padding-left: 20px;
+  color: #888888;
 }
 
 #emailbox > option {
@@ -394,4 +395,8 @@ body {
   line-height: 31px;
 
   color: #888888;
+}
+
+input:focus {
+  outline: none;
 }
