@@ -21,7 +21,7 @@
     <div class="frame">
       <span class="signin">Sign in</span>
       <div class="seeMore">
-        <img src="../resource/img/menu_icon.png" alt="" />
+        <span>&#9776</span>
       </div>
       <span class="name">이름</span>
       <input type="text" class="nameinput" />
@@ -31,11 +31,12 @@
       <span class="password">비밀번호</span>
       <input
         type="password"
-        class="passwordiinput"
+        class="passwordinput"
         placeholder="영어, 숫자 조합 8~10자 이내"
       />
       <span class="passwordcheck">비밀번호 확인</span>
-      <input type="password" class="passwordcheckinput" />
+      <input type="password" class="passwordcheckinput"/>
+      <span class="passwordDiff">&#8251 비밀번호가 일치하지 않습니다.</span>
       <span class="email">이메일</span>
       <input type="text" class="emailfront" />
       <span class="emailmiddle">@</span>
@@ -54,7 +55,10 @@
       <span class="gendertext1">남자</span>
       <input type="radio" value="여자" name="genderinput" id="genderinput2" />
       <span class="gendertext2">여자</span>
-      <button class="LoginSigninButton"><span>Log in / Sign in</span></button>
+      <div class="LoginSigninButton">
+        <button class="SigninButton"><span>Sign in</span></button>
+        <button class="LoginButton"><span>Log in</span></button>
+      </div>
 
       <script src="./script.js"></script>
     </div>
