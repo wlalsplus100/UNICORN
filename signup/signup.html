@@ -13,6 +13,9 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
     />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lateef&family=Libre+Baskerville&display=swap");
+    </style>
   </head>
   <body>
     <div class="frame">
@@ -36,19 +39,24 @@
       <span class="email">이메일</span>
       <input type="text" class="emailfront" />
       <span class="emailmiddle">@</span>
-      <select name="emailbox" id="emailbox">
-        <option value="gmail.com">gmail.com</option>
-        <option value="naver.com">naver.com</option>
-        <option value="daum.net">daum.net</option>
-        <option value="dsm.hs.kr">dsm.hs.kr</option>
-      </select>
+      <div id="selectcontroler">
+        <select name="emailbox" id="emailbox">
+          <option value="gmail.com">gmail.com</option>
+          <option value="naver.com">naver.com</option>
+          <option value="daum.net">daum.net</option>
+          <option value="dsm.hs.kr">dsm.hs.kr</option>
+        </select>
+        <div id="arrow"></div>
+      </div>
+
       <span class="gender">성별</span>
       <input type="radio" value="남자" name="genderinput" id="genderinput" />
       <span class="gendertext1">남자</span>
       <input type="radio" value="여자" name="genderinput" id="genderinput2" />
       <span class="gendertext2">여자</span>
-      <div id="arrow"></div>
       <button class="LoginSigninButton"><span>Log in / Sign in</span></button>
+
+      <script src="./script.js"></script>
     </div>
   </body>
 </html>

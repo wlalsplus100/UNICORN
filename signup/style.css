@@ -11,11 +11,6 @@ body {
   align-items: center;
 }
 
-@font-face {
-  font-family: "Lateef";
-  src: url("../resource/font/Lateef/Lateef-Regular.ttf") format("truetype");
-}
-
 .frame {
   position: relative;
   width: 350px;
@@ -30,7 +25,7 @@ body {
   left: 34px;
   top: 28px;
   vertical-align: middle;
-  font-family: "Lateef";
+  font-family: "Lateef", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -46,6 +41,11 @@ body {
   height: 55px;
   left: 285px;
   top: 8px;
+  border-radius: 1em;
+}
+
+.seeMore:hover {
+  background-color: #d1d1d1;
 }
 
 .name {
@@ -272,6 +272,11 @@ body {
   appearance: none;
   padding-left: 20px;
   color: #888888;
+  font-family: "Libre Baskerville", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
 }
 
 #emailbox > option {
@@ -280,13 +285,6 @@ body {
   height: 14px;
   left: 209px;
   top: 403px;
-
-  font-family: "Libre Baskerville";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-
   color: #888888;
 }
 
@@ -349,10 +347,10 @@ body {
 
 .gendertext1 {
   position: absolute;
-  width: 30px;
-  height: 6px;
+  width: auto;
+  height: auto;
   left: 57px;
-  top: 468px;
+  top: 470px;
   padding-left: 2%;
   font-family: "Libre Baskerville";
   font-style: normal;
@@ -364,10 +362,10 @@ body {
 
 .gendertext2 {
   position: absolute;
-  width: 30px;
-  height: 7px;
+  width: auto;
+  height: auto;
   left: 117px;
-  top: 469px;
+  top: 470px;
   padding-left: 2%;
   font-family: "Libre Baskerville";
   font-style: normal;
@@ -385,6 +383,7 @@ body {
   top: 575px;
   border: 0;
   background-color: #d9d9d9;
+  border-radius: 20px;
 }
 
 .LoginSigninButton > span {
@@ -397,6 +396,14 @@ body {
   color: #888888;
 }
 
+button:hover {
+  background-color: #d1d1d1;
+}
+
 input:focus {
+  outline: none;
+}
+
+select:focus {
   outline: none;
 }
