@@ -12,6 +12,14 @@ header {
   display: flex;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
 .homeButton {
   position: absolute;
   background-color: #fff;
@@ -149,4 +157,28 @@ aside {
 .access > div > a {
   color: #c4c4c4;
   text-decoration: none;
+}
+
+.pageMove {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prevButton {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  border: solid black;
+  border-radius: 50%;
+  padding-left: 6px;
+}
+
+.nextButton {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  border: solid black;
+  border-radius: 50%;
+  padding-left: 6px;
 }
