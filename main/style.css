@@ -21,25 +21,27 @@ a {
 }
 
 .homeButton {
-  position: absolute;
+  position: relative;
   background-color: #fff;
   border: 0;
-  left: 3%;
-  top: 3%;
+  left: 150%;
+  top: calc((100% - 36px) / 2);
   padding: 0;
 }
 
 .homeButton:hover {
   background-color: #ebebeb;
+  border-radius: 7px;
 }
 
 .searchBar {
   position: absolute;
   left: calc(3% + 5vw);
-  top: calc((12% - 40px) / 2);
+  top: calc((12% - 32px) / 2);
 }
 
 #searchInput {
+  color: white;
   width: 200px;
   height: 30px;
   border: none;
@@ -162,7 +164,7 @@ aside {
 .pageMove {
   width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .prevButton {
