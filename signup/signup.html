@@ -14,52 +14,66 @@
       rel="stylesheet"
     />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Lateef&family=Libre+Baskerville&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Jost&family=Lateef&family=Libre+Baskerville&display=swap");
     </style>
   </head>
   <body>
     <div class="frame">
-      <span class="signin">Sign in</span>
-      <div class="seeMore">
-        <span>&#9776</span>
+      <span class="signin">SIGN IN</span>
+      <div class="idFrame Frame">
+        <span class="id">아잉이잉디</span>
+        <br />
+        <input
+          type="text"
+          class="idinput"
+          placeholder="영, 숫자 4자~10자이내"
+        />
+        <button type="button" class="DuplicateID"><span>중복확인</span></button>
       </div>
-      <span class="name">이름</span>
-      <input type="text" class="nameinput" />
-      <span class="id">아이디</span>
-      <input type="text" class="idinput" placeholder="영, 숫자 4자~10자이내" />
-      <button type="button" class="DuplicateID"><span>중복확인</span></button>
-      <span class="password">비밀번호</span>
-      <input
-        type="password"
-        class="passwordinput"
-        placeholder="영어, 숫자 조합 8~10자 이내"
-      />
-      <span class="passwordcheck">비밀번호 확인</span>
-      <input type="password" class="passwordcheckinput"/>
-      <span class="passwordDiff">&#8251 비밀번호가 일치하지 않습니다.</span>
-      <span class="email">이메일</span>
-      <input type="text" class="emailfront" />
-      <span class="emailmiddle">@</span>
-      <div id="selectcontroler">
-        <select name="emailbox" id="emailbox">
-          <option value="gmail.com">gmail.com</option>
-          <option value="naver.com">naver.com</option>
-          <option value="daum.net">daum.net</option>
-          <option value="dsm.hs.kr">dsm.hs.kr</option>
-        </select>
-        <div id="arrow"></div>
+      <div class="passwordFrame Frame">
+        <span class="password">비밀번호</span>
+        <input
+          type="password"
+          class="passwordinput"
+          placeholder="영어, 숫자 조합 8~10자 이내"
+        />
+      </div>
+      <div class="passwordCkFrame Frame">
+        <span class="passwordcheck">비밀번호 확인</span>
+        <input type="password" class="passwordcheckinput" />
+        <br />
+        <span class="passwordDiff">비밀번호가 일치하지 않습니다.</span>
+      </div>
+      <div class="nameFrame Frame">
+        <span class="name">이름</span>
+        <input type="text" class="nameinput" />
+      </div>
+      <div class="emailFrame Frame">
+        <span class="email">이메일</span>
+        <input type="text" class="emailfront" />
+        <span class="emailmiddle">@</span>
+        <div id="selectcontroler">
+          <select name="emailbox" id="emailbox">
+            <option value="gmail.com">gmail.com</option>
+            <option value="naver.com">naver.com</option>
+            <option value="daum.net">daum.net</option>
+            <option value="dsm.hs.kr">dsm.hs.kr</option>
+          </select>
+          <div id="arrow"></div>
+        </div>
+      </div>
+      <div class="genderFrame Frame">
+        <span class="gender">성별</span>
+        <input type="radio" value="MAN" name="genderinput" id="genderinput" />
+        <span class="gendertext1">MAN</span>
+        <input type="radio" value="WOM" name="genderinput" id="genderinput2" />
+        <span class="gendertext2">WOM</span>
       </div>
 
-      <span class="gender">성별</span>
-      <input type="radio" value="남자" name="genderinput" id="genderinput" />
-      <span class="gendertext1">남자</span>
-      <input type="radio" value="여자" name="genderinput" id="genderinput2" />
-      <span class="gendertext2">여자</span>
       <div class="LoginSigninButton">
-        <button class="SigninButton"><span>Sign in</span></button>
-        <button class="LoginButton"><span>Log in</span></button>
+        <button class="SigninButton"><span>취솟</span></button>
+        <button class="LoginButton"><span>전송</span></button>
       </div>
-
       <script src="./script.js"></script>
     </div>
   </body>
