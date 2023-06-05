@@ -28,28 +28,34 @@
           class="idinput"
           placeholder="영, 숫자 4자~10자이내"
         />
-        <button type="button" class="DuplicateID"><span>중복확인</span></button>
+        <button type="button" class="DuplicateID">
+          <span>중복 확인</span>
+        </button>
       </div>
       <div class="passwordFrame Frame">
         <span class="password">비밀번호</span>
+        <br />
         <input
           type="password"
           class="passwordinput"
           placeholder="영어, 숫자 조합 8~10자 이내"
         />
-      </div>
-      <div class="passwordCkFrame Frame">
-        <span class="passwordcheck">비밀번호 확인</span>
-        <input type="password" class="passwordcheckinput" />
-        <br />
-        <span class="passwordDiff">비밀번호가 일치하지 않습니다.</span>
+        <div class="passwordCK">
+          <span class="passwordcheck">비밀번호 확인</span>
+          <br />
+          <input type="password" class="passwordcheckinput" />
+          <br />
+          <span class="passwordDiff">비밀번호가 일치하지 않습니다.</span>
+        </div>
       </div>
       <div class="nameFrame Frame">
         <span class="name">이름</span>
+        <br />
         <input type="text" class="nameinput" />
       </div>
       <div class="emailFrame Frame">
         <span class="email">이메일</span>
+        <br />
         <input type="text" class="emailfront" />
         <span class="emailmiddle">@</span>
         <div id="selectcontroler">
@@ -64,10 +70,25 @@
       </div>
       <div class="genderFrame Frame">
         <span class="gender">성별</span>
-        <input type="radio" value="MAN" name="genderinput" id="genderinput" />
-        <span class="gendertext1">MAN</span>
-        <input type="radio" value="WOM" name="genderinput" id="genderinput2" />
-        <span class="gendertext2">WOM</span>
+        <br />
+        <div class="genderinputFrame">
+          <input
+            type="radio"
+            value="MAN"
+            name="genderinput"
+            id="genderinput"
+            class="genderinput"
+          />
+          <span class="gendertext1 gendertext">MAN</span>
+          <input
+            type="radio"
+            value="WOM"
+            name="genderinput"
+            id="genderinput2"
+            class="genderinput"
+          />
+          <span class="gendertext2 gendertext">WOM</span>
+        </div>
       </div>
 
       <div class="LoginSigninButton">

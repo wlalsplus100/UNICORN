@@ -455,8 +455,8 @@ input {
 } */
 
 .frame {
-  width: 28%;
-  height: 67%;
+  width: 480px;
+  height: 540px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -501,9 +501,14 @@ input {
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
-  color: #888888;
+  color: #3c4cac;
   border: none;
   border-bottom: 1px solid #3c4cac;
+  outline: none;
+  width: 230px;
+  height: 18px;
+  margin-top: 10px;
+  padding-left: 9px;
 }
 
 .Frame {
@@ -512,6 +517,199 @@ input {
   font-size: 10px;
 }
 
+.Frame > input {
+  position: relative;
+  margin-left: 10px;
+}
+
+.Frame > div > input {
+  position: relative;
+  margin-left: 10px;
+}
+
 .passwordDiff {
   display: none;
+  position: absolute;
+  color: #505dac;
+}
+
+.DuplicateID {
+  position: relative;
+  top: 10%;
+  background: #505dac;
+  border-radius: 20px;
+  border: none;
+  height: 28px;
+  width: auto;
+  margin-left: 15px;
+}
+
+.DuplicateID > span {
+  display: inline-block;
+  font-family: "Lateef";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 5px;
+  color: #ffffff;
+}
+
+.idinput::placeholder {
+  color: #505dac;
+}
+
+.passwordinput {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #3c4cac;
+  border: none;
+  border-bottom: 1px solid #3c4cac;
+  outline: none;
+  width: 230px;
+  height: 18px;
+  margin-top: 10px;
+  padding-left: 9px;
+}
+
+.passwordinput::placeholder {
+  color: #505dac;
+}
+
+.passwordcheckinput {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #3c4cac;
+  border: none;
+  border-bottom: 1px solid #3c4cac;
+  outline: none;
+  width: 230px;
+  height: 18px;
+  margin-top: 10px;
+  padding-left: 9px;
+}
+
+.passwordCK {
+  margin-top: 10px;
+}
+
+.nameinput {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #3c4cac;
+  border: none;
+  border-bottom: 1px solid #3c4cac;
+  outline: none;
+  width: 120px;
+  height: 18px;
+  margin-top: 10px;
+  padding-left: 9px;
+}
+
+.emailfront {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #3c4cac;
+  border: none;
+  border-bottom: 1px solid #3c4cac;
+  outline: none;
+  width: 120px;
+  height: 18px;
+  margin-top: 10px;
+  padding-left: 9px;
+}
+
+#selectcontroler {
+  display: inline-block;
+}
+
+.emailmiddle {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  top: 10px;
+}
+
+#emailbox {
+  border: none;
+  border-bottom: #3c4cac 1px solid;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #3c4cac;
+  outline: none;
+  height: 18px;
+  margin-top: 13px;
+}
+
+.genderinput {
+  top: 10px;
+}
+
+.gendertext {
+  position: relative;
+  top: 12px;
+}
+
+.genderinputFrame {
+  position: relative;
+}
+
+.LoginSigninButton {
+  top: -15px;
+  position: relative;
+  left: 68%;
+}
+
+.SigninButton {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #3c4cac;
+  border-radius: 50px;
+  padding: 0 15px 0 15px;
+}
+
+.LoginButton {
+  background: #3c4cac;
+  border-radius: 50px;
+  border: none;
+  padding: 0 15px 0 15px;
+}
+
+.SigninButton > span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.LoginButton > span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
 }
