@@ -544,6 +544,10 @@ input {
   margin-left: 15px;
 }
 
+.DuplicateID:hover {
+  cursor: pointer;
+}
+
 .DuplicateID > span {
   display: inline-block;
   font-family: "Lateef";
@@ -685,6 +689,11 @@ input {
   padding: 0 15px 0 15px;
 }
 
+.SigninButton,
+.LoginButton:hover {
+  cursor: pointer;
+}
+
 .LoginButton {
   background: #3c4cac;
   border-radius: 50px;
@@ -701,6 +710,10 @@ input {
   /* identical to box height */
 
   color: #000000;
+}
+
+.a {
+  text-decoration: none;
 }
 
 .LoginButton > span {
