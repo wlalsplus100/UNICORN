@@ -82,14 +82,16 @@ a:visited {
 }
 
 .title {
+  position: relative;
   display: flex;
-  margin-left: calc(50% - (315px / 2));
+  margin-left: calc(50% - (278px / 2));
+  top: -15%;
 }
 
 .title > span {
-  font-family: "Lateef";
+  font-family: "Lateef", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 95px;
 }
 
@@ -129,8 +131,8 @@ aside {
   font-family: "lateef";
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
-  line-height: 140%;
+  font-size: 24px;
+  line-height: 180%;
 }
 
 .cloths > div {
@@ -162,25 +164,187 @@ aside {
 }
 
 .pageMove {
-  width: 100vw;
+  position: relative;
+  width: 70vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .prevButton {
   font-size: 25px;
   width: 30px;
   height: 30px;
-  border: solid black;
+  border: solid #888;
   border-radius: 50%;
   padding-left: 6px;
+  background: transparent;
+}
+
+.prevButton:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 162, 0, 1) 16%,
+    rgba(237, 255, 0, 1) 32%,
+    rgba(0, 255, 0, 1) 49%,
+    rgba(0, 125, 255, 1) 64%,
+    rgba(55, 0, 255, 1) 82%,
+    rgba(196, 0, 255, 1) 100%
+  );
+}
+
+.prevButton:active {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 162, 0, 1) 16%,
+    rgba(237, 255, 0, 1) 32%,
+    rgba(0, 255, 0, 1) 49%,
+    rgba(0, 125, 255, 1) 64%,
+    rgba(55, 0, 255, 1) 82%,
+    rgba(196, 0, 255, 1) 100%
+  );
+}
+
+.nextButton:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 162, 0, 1) 16%,
+    rgba(237, 255, 0, 1) 32%,
+    rgba(0, 255, 0, 1) 49%,
+    rgba(0, 125, 255, 1) 64%,
+    rgba(55, 0, 255, 1) 82%,
+    rgba(196, 0, 255, 1) 100%
+  );
+}
+
+.nextButton:active {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 162, 0, 1) 16%,
+    rgba(237, 255, 0, 1) 32%,
+    rgba(0, 255, 0, 1) 49%,
+    rgba(0, 125, 255, 1) 64%,
+    rgba(55, 0, 255, 1) 82%,
+    rgba(196, 0, 255, 1) 100%
+  );
 }
 
 .nextButton {
   font-size: 25px;
   width: 30px;
   height: 30px;
-  border: solid black;
+  border: solid #888;
   border-radius: 50%;
   padding-left: 6px;
+}
+
+.pageMove i {
+  color: #888;
+}
+
+.contents {
+  width: 70vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.maincontent {
+  width: 24%;
+  height: 100%;
+  position: relative;
+}
+
+.mainlike {
+  display: inline-block;
+  position: relative;
+  top: -12%;
+}
+
+.name {
+  font-family: "Inter", sans-serif;
+  font-size: xx-large;
+  padding-left: 11px;
+  font-weight: 500;
+}
+
+#like1 {
+  left: 90%;
+}
+
+.fa-heart {
+  background-color: transparent;
+  font-size: 24px;
+}
+
+.likebutton {
+  color: red;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fa-heart.once-beat {
+  animation: heartbeat 1s;
+  animation-fill-mode: forwards;
+}
+
+hr {
+  margin: 0;
+}
+
+.line {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  border: 0;
+  background-color: black;
+  height: 2px;
+}
+
+.logo {
+  margin: 1em 0;
+}
+
+#like2 {
+  left: 90%;
+}
+
+#like3 {
+  left: 90%;
+}
+
+.sale > p {
+  font-family: "League Gothic", sans-serif;
+  float: right;
+}
+
+.sale {
+  padding-right: 0.5em;
+  font-size: 2em;
 }
