@@ -168,13 +168,14 @@ aside {
   width: 70vw;
   display: flex;
   justify-content: space-between;
-  margin-top: 8%;
+  margin-top: 5%;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: calc(80% - 40px);
 }
 
 .prevButton {
@@ -347,4 +348,36 @@ hr {
 .sale {
   padding-right: 0.5em;
   font-size: 2em;
+}
+
+.ad {
+  margin-top: auto;
+}
+
+.ad-image {
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+}
+
+.footsmall {
+  display: flex;
+  font-size: 10px;
+  line-height: 1em;
+}
+
+.footsmall > div {
+  margin-top: 1em;
+}
+
+.footsmall p {
+  color: #888;
+  padding: 1px 5px;
+}
+
+.ad-name {
+  display: flex;
 }

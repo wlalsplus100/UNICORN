@@ -529,8 +529,10 @@ input {
 
 .passwordDiff {
   display: none;
-  position: absolute;
-  color: #505dac;
+  position: relative;
+  color: #ff0000;
+  top: 8%;
+  left: 8%;
 }
 
 .DuplicateID {
@@ -639,6 +641,14 @@ input {
 
 #selectcontroler {
   display: inline-block;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#emailbox > option {
+  border: 1px solid blue;
+  border-radius: 0.5em !important ;
 }
 
 .emailmiddle {
@@ -725,4 +735,12 @@ input {
   /* identical to box height */
 
   color: #ffffff;
+}
+
+.idDup {
+  display: none;
+  position: relative;
+  left: 8%;
+  top: 8%;
+  color: #00930f;
 }
