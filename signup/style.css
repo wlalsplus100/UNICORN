@@ -623,6 +623,10 @@ input {
   padding-left: 9px;
 }
 
+.name p {
+  font-size: 14px;
+}
+
 .emailfront {
   font-family: "Libre Baskerville";
   font-style: normal;
@@ -741,6 +745,6 @@ input {
   display: none;
   position: relative;
   left: 8%;
-  top: 8%;
+  top: 6%;
   color: #00930f;
 }

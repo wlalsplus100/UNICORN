@@ -332,6 +332,11 @@ hr {
   margin: 1em 0;
 }
 
+.logo img {
+  width: 258px;
+  height: 150px;
+}
+
 #like2 {
   left: 90%;
 }
